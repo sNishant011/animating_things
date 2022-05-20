@@ -3,10 +3,34 @@
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2rem;
   padding: 2rem;
+  @media (max-width) {
+    padding: 1rem;
+  }
+}
+.app_header {
+  padding-left: 2rem;
+  display: flex;
+  gap: 1rem;
+  button {
+    padding: 0.5rem 3rem;
+    border: none;
+    border-radius: 30px;
+    &.active {
+      outline: 2px solid #005dff;
+    }
+  }
+  @media (max-width: 600px) {
+    padding: 1rem;
+    button {
+      padding: 0.5rem 1rem;
+    }
+  }
 }
 .product_card {
   width: 100%;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
   border-radius: 8px;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   img {
@@ -16,6 +40,10 @@
   }
   .info_container {
     padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
   }
   h1 {
     font-weight: 600;

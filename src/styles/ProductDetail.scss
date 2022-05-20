@@ -1,12 +1,14 @@
+.back_button {
+  padding-left: 2rem;
+  cursor: pointer;
+  text-decoration: underline;
+}
 .product_detail_container {
   display: flex;
   gap: 2rem;
   flex-direction: row;
   width: 100%;
   padding: 1rem 2rem;
-  @media (max-width: 600px) {
-    flex-direction: column;
-  }
   img,
   .info_container {
     width: 100%;
@@ -14,14 +16,11 @@
   }
   img {
     border-radius: 8px;
-    height: 400px;
+    width: 100%;
+    aspect-ratio: 16 / 9;
     object-fit: cover;
   }
   .info_container {
-    span {
-      cursor: pointer;
-      text-decoration: underline;
-    }
     h1 {
       font-weight: 600;
     }
@@ -30,6 +29,18 @@
     }
     p {
       font-weight: 300;
+    }
+  }
+  @media (max-width: 600px) {
+    flex-direction: column;
+    img {
+      height: auto;
+      aspect-ratio: 16 / 9;
+    }
+    .info_container {
+      h1 {
+        font-size: 1.5rem;
+      }
     }
   }
 }

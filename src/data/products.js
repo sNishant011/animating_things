@@ -1,35 +1,38 @@
 export const productsData = [
   {
-    title: 'GOLDSTAR G10-P102 Black Sneaker for Men',
-    price: 2000,
+    title: 'Futsal Boots Vector X Fizer 2.0',
+    description: 'Futsal Boots Vector X Fizer 2.0',
+    price: '1000',
+    id: 1,
+    category: 'shoes',
     image_url:
-      'https://static-01.daraz.com.np/p/89ffea6c2ece440a23a3df1b9be9382f.jpg',
-    slug: 'goldstart-g9',
-    description: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid a
-        molestiae earum. Corporis ratione perspiciatis unde, voluptatem quidem
-        expedita molestiae dolore nisi commodi, impedit iusto maiores placeat!
-        Temporibus, porro perferendis?`,
+      'https://static-01.daraz.com.np/p/afa7898c73b7177b7f6220a56a513ba9.jpg',
   },
   {
-    title: 'GOLDSTAR G10-P102 Black Sneaker for Men',
-    price: 2000,
+    title: `Plain Sweatshirt Terry Cloth Light Pink ( Unisex ) For Men & Women`,
+    description: `Plain Sweatshirt Terry Cloth Light Pink ( Unisex ) For Men & Women`,
+    price: '200',
+    id: 2,
+    category: 'clothes',
     image_url:
-      'https://static-01.daraz.com.np/p/a9e085e1604ea03b15ff516327d3cae8.jpg',
-    slug: 'goldstart-g10',
-    description: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid a
-        molestiae earum. Corporis ratione perspiciatis unde, voluptatem quidem
-        expedita molestiae dolore nisi commodi, impedit iusto maiores placeat!
-        Temporibus, porro perferendis?`,
+      'https://static-01.daraz.com.np/p/9479c90550cf6a7751593cf9df4d4ea2.jpg',
   },
   {
-    title: 'GOLDSTAR G10-P102 Black Sneaker for Men',
-    price: 2000,
+    title: `Futsal Boots Vector X Flame`,
+    description: 'badgeFutsal Boots Vector X Flame',
+    price: '2700',
+    id: 3,
+    category: 'shoes',
     image_url:
-      'https://static-01.daraz.com.np/p/ac8499e3e086f7e85f597f5185718710.jpg',
-    slug: 'goldstart-g11',
-    description: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid a
-        molestiae earum. Corporis ratione perspiciatis unde, voluptatem quidem
-        expedita molestiae dolore nisi commodi, impedit iusto maiores placeat!
-        Temporibus, porro perferendis?`,
+      'https://static-01.daraz.com.np/p/e84002c80ce49e6b7267c2d95ec2cbea.jpg',
+  },
+  {
+    title: `Plain Sweatshirt Terry Cloth Light Pink ( Unisex ) For Men & Women`,
+    description: `Plain Sweatshirt Terry Cloth Light Pink ( Unisex ) For Men & Women`,
+    price: '300',
+    id: 4,
+    category: 'clothes',
+    image_url:
+      'https://static-01.daraz.com.np/p/mdc/4b63e214432c17811f2923cbfbc76d05.jpg',
   },
 ]

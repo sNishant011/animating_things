@@ -10,14 +10,12 @@ import { AnimateSharedLayout } from 'framer-motion'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ProductsProvider>
-      <AnimateSharedLayout type='crossfade'>
-        <BrowserRouter>
-          <Routes>
-            <Route element={<App />} path={'/'} />
-            <Route element={<ProductDetail />} path={'/products/:slug'} />
-          </Routes>
-        </BrowserRouter>
-      </AnimateSharedLayout>
+      <BrowserRouter>
+        <Routes>
+          <Route element={<App />} path={'/'} />
+          <Route element={<ProductDetail />} path={'/products/:id'} />
+        </Routes>
+      </BrowserRouter>
     </ProductsProvider>
   </React.StrictMode>
 )

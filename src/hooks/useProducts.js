@@ -6,8 +6,8 @@ export const useProducts = () => {
   if (!products) {
     throw new Error('Must be inside provider')
   }
-  const getProductBySlug = (slug) => {
-    return products.find((prod) => prod.slug === slug)
+  const getProductBySlug = (id) => {
+    return products.find((prod) => prod.id == id)
   }
 
   return {
